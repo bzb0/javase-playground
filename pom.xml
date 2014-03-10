@@ -13,4 +13,13 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <dependencies>
+    <!-- JGraph -->
+    <dependency>
+      <groupId>jgraph</groupId>
+      <artifactId>jgraph</artifactId>
+      <version>5.13.0.0</version>
+    </dependency>
+  </dependencies>
+
 </project>
