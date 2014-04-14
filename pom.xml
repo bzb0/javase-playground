@@ -11,6 +11,7 @@
   <properties>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <jung.version>2.0.1</jung.version>
   </properties>
 
   <dependencies>
@@ -19,6 +20,28 @@
       <groupId>jgraph</groupId>
       <artifactId>jgraph</artifactId>
       <version>5.13.0.0</version>
+    </dependency>
+
+    <!-- JUNG2 dependencies -->
+    <dependency>
+      <groupId>net.sf.jung</groupId>
+      <artifactId>jung-api</artifactId>
+      <version>${jung.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jung</groupId>
+      <artifactId>jung-graph-impl</artifactId>
+      <version>${jung.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jung</groupId>
+      <artifactId>jung-algorithms</artifactId>
+      <version>${jung.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jung</groupId>
+      <artifactId>jung-visualization</artifactId>
+      <version>${jung.version}</version>
     </dependency>
   </dependencies>
 
